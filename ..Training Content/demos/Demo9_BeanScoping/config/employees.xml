@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN"
+"http://www.springframework.org/dtd/spring-beans.dtd">
+
+<beans>
+
+<bean id="birthDate" class="com.util.BirthDate">
+	<constructor-arg value="25" />
+	<constructor-arg value="07" />
+	<constructor-arg value="1979" />
+</bean>
+
+<bean id="employee" class="com.emp.Employee" singleton="false" >
+ <!-- In spring 2.0 the scope attribute was provided for bean element 
+      if scope="prototype", it will create different instances of that bean
+      bydefault scope="singleton", where it will create only one instance
+
+      In spring 2.5, Bean instances can be "singletons" (shared instances) or "prototypes"
+	(independent instances). BUT scopes are supposed to be built on top
+	of the core BeanFactory infrastructure and are therefore not part of it.
+ -->
+
+ <constructor-arg value="FirstName" />
+ <constructor-arg value="lastNamer" /> 
+
+ <constructor-arg ref="birthDate" /> 
+</bean>
+
+
+<bean id="otheremployee" class="com.emp.Employee"  factory-method="getEmployee" >
+
+<!-- Factory Method should be defined as STATIC and return type CANNOT be VOID  -->
+
+</bean>
+
+</beans>

@@ -1,0 +1,4 @@
+maven plugin link:
+
+
+http://www.avajava.com/tutorials/lessons/how-do-i-create-a-maven-plugin-project-using-the-archetype-plugin.html

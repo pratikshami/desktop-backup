@@ -1,0 +1,25 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+ 
+ <bean id="CustomerBean" class="sj.model.Customer" autowire="autodetect" >
+   	<property name="action" value="buy" />
+	<property name="type" value="1" />
+  </bean>
+ 
+   <bean id="person1" class="sj.model.Person">
+	<property name="name" value="aaa" />
+	<property name="address" value="address 123" />
+	<property name="age" value="28" />
+  </bean>
+ 
+   <!-- <bean id="person1" class="sj.model.Person">
+	<property name="name" value="bbb" />
+	<property name="address" value="address 123" />
+	<property name="age" value="28" />
+  </bean> -->
+ 
+   
+ 
+</beans>

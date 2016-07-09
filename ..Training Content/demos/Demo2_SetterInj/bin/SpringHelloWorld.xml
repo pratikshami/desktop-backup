@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	<bean id="StBean" class="sj.Student" scope="prototype" >
+     <property name="name" value="aaa" />
+     <property name="rollno" value="24"/> 
+     <property name="course" value="adiploma"/> 
+     </bean>
+     
+    <bean id="TrBean" class="sj.Trainer" >
+     <property name="name" value="cn" />
+     <property name="id" value="104"/> 
+     <property name="stream" value="Ajava"/> 
+     </bean>
+</beans>
+ 
+ 

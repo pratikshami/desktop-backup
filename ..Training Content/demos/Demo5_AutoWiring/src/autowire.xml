@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+
+
+
+<bean id="emp" class="Autowire.Employee" autowire="autodetect">
+	<property name="name" value="aaa" />
+	<property name="empid" value="119" />
+</bean>
+
+<bean id="m1" class="Autowire.Manager" >
+	<property name="name" value="bbb" />
+	<property name="dept" value="119" />
+</bean>	
+
+
+<!--<bean id="emp" class="Autowire.Employee" autowire="byType">
+	<property name="name" value="asdf" />
+	<property name="empid" value="119" />
+</bean>
+-->
+
+<!--<bean id="emp" class="Autowire.Employee" autowire="constructor">
+	<property name="name" value="cons" />
+	<property name="empid" value="119" />
+</bean>
+
+-->
+
+<!-- <bean id="emp" class="Autowire.Employee" autowire="autodetect">
+	
+</bean>
+
+
+<bean id="manager" class="Autowire.Manager">
+	<property name="name" value="mmm" />
+	<property name="dept" value="Engineering" />
+
+</bean> -->
+
+</beans>

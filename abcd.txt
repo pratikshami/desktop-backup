@@ -1,0 +1,130 @@
+http://www.javaprepare.com/scwd/quests/servlet.html
+
+http://www.siteforinfotech.com/2013/06/java-multiple-choice-questions-with.html
+
+
+servlet imp question :
+B. The class HttpServletResponse defines the getWriter method.
+B. setContentType sets the content type of the response being sent to the client.
+D. The response from the server to a HEAD request does not contain the document, whereas the response to GET request does contain a document. So A and B are incorrect. C is incorrect because setStauts is defined in HttpServletResponse.
+C. sendError(String URL) is equivalent to sending SC_NOT_FOUND (404) response code.
+B. sendRedirect(String URL) is equivalent to sending SC_MOVED_TEMPORARILY (302) response code and a location header in the URL.
+A. The following table specifies the specific the status code of Http response.
+Status Code	Purpose
+100-199	Informational
+200-299	Request was successful
+300-399	Request file has moved.
+400-499	Client error
+500-599	Server error.
+B. The getOutputStream method is used to get an output stream to send binary data. The getWriter method is used to get a PrintWriter object that can be used to send text data.
+D
+true. The statement about URL encoding is correct.
+A. The class HttpServletRequest defines the getSession method.
+A, C.
+A. GET method gets invoked when a URL is typed.
+A. GET method gets invoked when user clicks on a link.
+D. Since POST does not have attributes in the URL, it cannot be used to bookmark the URL. Since arguments are present in the body of the request, using POST method does not guarantee security.
+B. COMPARE is not a valid HTTP method.
+B. PUT method is used to send resources from client to server.
+B. TRACE method is used for debugging. It sends the same response as request.
+C. A status code of 4XX represents a client error.
+C. Classes are stored in /WEB-INF/classes.
+
+
+
+1. JSP embeds in ................ in ......................
+1. JSP embeds in ................ in ......................
+A) Servlet, HTML
+B) HTML, Java
+C) HTML, Servlet
+D) Java, HTML
+
+2. The class at the top of exception class hierarchy is ..........................
+A) ArithmeticException
+B) Throwable
+C) Class
+D) Exception
+
+3. In a java program, package declaration .................... import statements.
+A) must precede
+B) must succeed
+C) may precede or succeed
+D) none
+
+4. The class string belongs to ................... package.
+A) java.awt
+B) java.lang
+C) java.applet
+D) java.string
+
+5. ............... package is used by compiler itself. So it does not need to be imported for use.
+A) java.math
+B) java.awt
+C) java.applet
+D) java.lang
+
+6. State true or false for the following statements in Java.
+i) Java beans slow down software development process.
+ii) Java Servlets do not have built in multithreading feature.
+A) i-false, ii-false
+B) i-false, ii-true
+C) i-true, ii-false
+D) i-true, ii-true
+
+7. State whether true or false.
+i) init( ) of servlet is called after a client request comes in 
+ii) Servlets are ultimately converted into JSP
+A) i-false, ii-false
+B) i-false, ii-true
+C) i-true, ii-false
+D) i-true, ii-true
+
+8. What will be the result of compiling following code.
+public class MyClass{
+     public static void main(string args[]){
+           system.out.println("In first main()");
+     }
+public static void main(char args[]){
+          system.out.println('a);
+     }
+}
+
+A) Code will not compile and will give "Duplicate main() method declaration" error
+B) Code will compile correctly but will give a runtime  exception
+C) Code will compile correctly and will print "In first main()" (without quotes) when it is run
+D) Code will compile correctly and will print "a" (without quotes) when it is run
+
+9.Match the following. 
+a) Java                      1) is a tool for debugging java program
+b) Javah                    2) is a tool for creating C-like header files
+c) Javap                    3) runs java bytecode
+d) jdb                        4) prints java code representation
+
+A) a-3, b-2,c-1
+B) a-3, b-2, c-4, d-1
+C) a-1, b-2, c-3, d-4
+D) a-2, b-1, c-3, d-4
+
+10.State true or false.
+i) init() is called after start() in applet
+ii) applets are used for networking
+iii) inheritance is a part of Java Foundation Classes
+iv) final does not prevent inheritance
+
+A) i-true, ii-true, iii-false, iv-true
+B) i-false, ii-false, iii-false, iv-false
+C) i-true, ii-true, iii-true, iv-true
+D) i-true, ii-false, iii-false, iv-false
+
+Answers:
+
+1.  D) Java, HTML
+2.  B) Throwable
+3.  A) must precede
+4.  B) java.lang
+5.  D) java.lang
+6.  A) i-false, ii-false
+7.  A) i-false, ii-false
+8.  C) Code will compile correctly and will print "In first main()" (without quotes) .. run
+9.  B)  a-3, b-2, c-4, d-1
+10.B) i-false, ii-false, iii-false, iv-false

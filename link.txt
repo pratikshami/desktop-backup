@@ -1,0 +1,13 @@
+Git reference Url’s :
+http://git-scm.com/book/en/v2/Getting-Started-About-Version-Control
+
+Stash reference Url :
+https://confluence.atlassian.com/display/STASH/Getting+started
+
+
+git video
+\\172.27.59.73\Videos\GIT
+
+
+
+https://confluence.atlassian.com/display/BAMBOO/Getting+started+with+Java+and+Bamboo

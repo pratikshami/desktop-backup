@@ -1,0 +1,27 @@
+installing xdebug in windows
+
+1.	Download php_xdebug-2.2.6-5.3-vc9-x86_64.dll
+2.	Move the downloaded file to c:\wamp\bin\php\php5.3.10\ext
+3.	Update C:\wamp\bin\apache\Apache2.2.21\bin\php.ini and change the line
+4.	zend_extension = c:\wamp\bin\php\php5.3.10\ext\php_xdebug-2.2.6-5.3-vc9-x86_64.dll
+5.	Restart the webserver
+
+
+
+First Install PHP, setup  present in utilities for all .
+
+Set the environment variable same as you all do for java.
+
+Please find below the installation steps for PHPUnit
+
+1.	Create a directory for PHP binaries; e.g., C:\bin
+2.	Append ;C:\bin to your PATH environment variable (related help)
+3.	Download https://phar.phpunit.de/phpunit.phar and save the file as C:\bin\phpunit.phar
+4.	Open a command line (e.g., press Windows+R » type cmd » ENTER)
+5.	Create a wrapping batch script (results in C:\bin\phpunit.cmd):
+C:\Users\username> cd C:\bin
+C:\bin> echo @php "%~dp0phpunit.phar" %* > phpunit.cmd
+C:\bin> exit
+
+URL : https://phpunit.de/manual/current/en/installation.html
+

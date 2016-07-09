@@ -1,0 +1,21 @@
+Hi,
+
+Please find below URL’s of Atlassian tools with credential. Also send this details to your below group members.
+
+Jira – http://172.27.59.54:8080/
+Confluence – http://172.27.59.54:8090/
+Stash – http://172.27.59.54:7990/
+Bamboo – http://172.27.59.54:8085/
+
+Credential Details:-
+User – user8
+Password - widfh24r
+
+Group members:-
+
+Pratiksha Misal	CT1-4-A-6655A
+Parul Mann	CT1-4-A-6655B
+Ashish Kamat	CT1-4-A-6655C
+Madhurima Mishra	CT1-4-A-6655D
+Trideopratap Chawda	CT1-4-A-6627C
+

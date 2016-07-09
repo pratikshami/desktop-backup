@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN"
+"http://www.springframework.org/dtd/spring-beans.dtd">
+
+<beans>
+
+<bean id="emloyee" class="com.emp.Employee" >
+
+<property name="account">
+	<ref bean="DMacct" />
+</property>
+
+<constructor-arg>
+<value>abc</value>
+</constructor-arg>
+
+</bean>
+
+<bean id="acct" class="com.emp.account.SalaryAccount">
+
+</bean>
+<bean id="DMacct" class="com.emp.account.DMatAcct">
+
+</bean>
+
+
+</beans>
