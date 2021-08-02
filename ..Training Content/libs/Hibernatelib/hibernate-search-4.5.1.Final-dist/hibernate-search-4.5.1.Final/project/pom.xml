@@ -155,7 +155,7 @@
         <narayanaVersion>5.0.0.Final</narayanaVersion>
         <avroVersion>1.7.6</avroVersion>
         <jacksonAslVersion>1.9.13</jacksonAslVersion>
-        <commonsCompressVersion>1.5</commonsCompressVersion>
+        <commonsCompressVersion>1.21</commonsCompressVersion>
         <jbossTransactionApiVersion>1.0.1.Final</jbossTransactionApiVersion>
         <commonsCodecVersion>1.6</commonsCodecVersion>
         <commonsLoggingVersion>1.1.1</commonsLoggingVersion>
